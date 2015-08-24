@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		36698249A38869FC29399E67 /* GFIsValidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669834226B519B4D55F0839 /* GFIsValidTests.m */; };
 		3669860998A59E2B5639372B /* GFPerimeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36698D3112FF157A375349BE /* GFPerimeterTests.m */; };
+		366986EED9C7FF433A2524C6 /* GFIntersectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 366983B0C051140E7871539A /* GFIntersectionTests.m */; };
 		3669881DADB8AE129E9DE534 /* GFBoundingBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36698F7EA43ECADDD7B7B282 /* GFBoundingBoxTests.m */; };
 		36698E37BA2932EA59598FA6 /* GFGeometryBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 366982653374C06552CE0A4A /* GFGeometryBoxTests.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -58,6 +59,7 @@
 		22529FD0A77AEC89DC728E5F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		366982653374C06552CE0A4A /* GFGeometryBoxTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeometryBoxTests.m; sourceTree = "<group>"; };
 		3669834226B519B4D55F0839 /* GFIsValidTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFIsValidTests.m; sourceTree = "<group>"; };
+		366983B0C051140E7871539A /* GFIntersectionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFIntersectionTests.m; sourceTree = "<group>"; };
 		36698D3112FF157A375349BE /* GFPerimeterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFPerimeterTests.m; sourceTree = "<group>"; };
 		36698F7EA43ECADDD7B7B282 /* GFBoundingBoxTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBoundingBoxTests.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GeoFeatures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoFeatures.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -221,9 +223,10 @@
 				EA8617591B2F534F004CFB81 /* GFUnionTests.m */,
 				EA86175A1B2F534F004CFB81 /* GFWithinTests.m */,
 				EA86175B1B2F534F004CFB81 /* GFWKTTests.m */,
-				6003F5B6195388D20070C39A /* Supporting Files */,
 				366982653374C06552CE0A4A /* GFGeometryBoxTests.m */,
 				3669834226B519B4D55F0839 /* GFIsValidTests.m */,
+				366983B0C051140E7871539A /* GFIntersectionTests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -442,6 +445,7 @@
 				3669881DADB8AE129E9DE534 /* GFBoundingBoxTests.m in Sources */,
 				36698E37BA2932EA59598FA6 /* GFGeometryBoxTests.m in Sources */,
 				36698249A38869FC29399E67 /* GFIsValidTests.m in Sources */,
+				366986EED9C7FF433A2524C6 /* GFIntersectionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
