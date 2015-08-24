@@ -202,6 +202,18 @@ namespace geofeatures {
         }
     }
 
+    - (BOOL)intersects {
+        return NO;
+    }
+
+    - (BOOL)intersects:(GFGeometry *)other {
+        return NO;
+    }
+
+    - (GFGeometry *)intersection:(GFGeometry *)other {
+        return nil;
+    }
+
     - (NSString *)description {
         return [self toWKTString];
     }

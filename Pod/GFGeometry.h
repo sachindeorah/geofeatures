@@ -2,6 +2,7 @@
 *   GFGeometry.h
 *
 *   Copyright 2015 The Climate Corporation
+*   Copyright 2015 Tony Stone
 *
 *   Licensed under the Apache License, Version 2.0 (the "License");
 *   you may not use this file except in compliance with the License.
@@ -16,6 +17,9 @@
 *   limitations under the License.
 *
 *   Created by Tony Stone on 4/14/15.
+*
+*   MODIFIED 2015 BY Tony Stone. Modifications licensed under Apache License, Version 2.0.
+*
 */
 
 #import <Foundation/Foundation.h>
@@ -115,6 +119,23 @@
     */
     - (GFGeometry *) union_: (GFGeometry *)other;  // Note: called union_ because union is a reserved word
 
+    /** Checks if self has at least one intersection.
+    *
+    * @returns true if self has at least one intersection.
+    */
+    - (BOOL) intersects;
+
+    /** Checks if self has at least least one intersection with the other geometry.
+    *
+    * @returns true if self has at least least one intersection with the other geometry.
+    */
+    - (BOOL) intersects: (GFGeometry *)other;
+
+    /** Calculate the intersection of two geometries
+    *
+    *  @returns A new GFGeometry that represents the spatial set theoretic intersection of self with the other GFGeometry.
+    */
+    - (GFGeometry *) intersection: (GFGeometry *)other;
 
 @end
 
